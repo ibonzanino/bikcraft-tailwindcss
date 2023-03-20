@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h2-title {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.detalhe::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
